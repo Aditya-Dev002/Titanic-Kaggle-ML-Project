@@ -36,6 +36,10 @@ This project is a solution to the [Titanic - Machine Learning from Disaster](htt
 - Final accuracy on Kaggle submission: **0.8101**
 
 ---
+## ⚙️ Configuration
+
+All project settings, preprocessing steps, and model metadata are described in [`project_config.yaml`](./project_config.yaml).
+
 
 ## ✅ Submission Format
 
