@@ -38,7 +38,7 @@ This project is a solution to the [Titanic - Machine Learning from Disaster](htt
 ---
 ## ⚙️ Configuration
 
-All project settings, preprocessing steps, and model metadata are described in titanic_project.yml.
+All project settings, preprocessing steps, and model metadata are described in 'titanic_project.yml'.
 
 
 ## ✅ Submission Format
