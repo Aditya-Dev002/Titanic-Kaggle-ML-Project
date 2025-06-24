@@ -1,0 +1,36 @@
+project: Titanic Survival Prediction
+author: Aditya Dev
+email: devaditya386@gmail.com
+
+data:
+  source: Kaggle
+  files:
+    - train.csv
+    - test.csv
+
+preprocessing:
+  missing_values:
+    Age: median
+    Fare: median
+    Embarked: mode
+  dropped_columns:
+    - Cabin
+  encoded_columns:
+    Sex: OrdinalEncoder
+    Embarked: OrdinalEncoder
+
+model:
+  type: LogisticRegression
+  library: sklearn
+  parameters:
+    max_iter: 200
+
+evaluation:
+  metric: accuracy
+  score: 0.8101
+
+submission:
+  file: submission.csv
+  format: 
+    - PassengerId
+    - Survived
